@@ -25,7 +25,8 @@ def get_japanese_emoticon(file, emoticon)
 test = load_library(file)
   test.each do |k, v|
    if test[k][:english] == emoticon
-    return test[k][:japanese]
+    return icon = test[k][:japanese]
    end
   end
+  return icon = "Sorry"
 end
