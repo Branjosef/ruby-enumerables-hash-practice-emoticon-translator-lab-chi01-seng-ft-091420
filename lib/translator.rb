@@ -19,7 +19,7 @@ test = load_library(file)
     return key = k
    end
   end
-  return key = 
+  return key = "Sorry, that emoticon was not found"
 end
 
 def get_japanese_emoticon(file, emoticon)
