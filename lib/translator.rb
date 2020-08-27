@@ -28,5 +28,5 @@ test = load_library(file)
     return icon = test[k][:japanese]
    end
   end
-  return icon = "Sorry"
+  return icon = "Sorry, that emoticon was not found"
 end
